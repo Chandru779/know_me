@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import NavMenu from './components/NavMenu';
-import { BrowserRouter,Route,HashRouter } from 'react-router-dom';
+import { BrowserRouter,Route, Switch } from 'react-router-dom';
 import Home from './Pages/Home';
 import Project from './Pages/Project';
 import About from './Pages/About';
@@ -16,7 +16,7 @@ function App() {
      <BrowserRouter>
         <NavMenu/>
 
-        <HashRouter>
+        <Switch>
           <Route path="/About">
             <About/>
           </Route>
@@ -32,7 +32,7 @@ function App() {
           <Route path="/"> 
             <Home/>  
           </Route>
-        </HashRouter>
+        </Switch>
 
      </BrowserRouter>
     </div>
