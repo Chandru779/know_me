@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.50a3335d.chunk.css",
+    "main.js": "/Portfolio/static/js/main.bb3d9c37.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.bb3d9c37.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.95dee7a4.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.95dee7a4.js.map",
+    "static/js/2.5fc35ecb.chunk.js": "/Portfolio/static/js/2.5fc35ecb.chunk.js",
+    "static/js/2.5fc35ecb.chunk.js.map": "/Portfolio/static/js/2.5fc35ecb.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.76d20c266f23ee045df0ce92d2cdd8a0.js": "/Portfolio/precache-manifest.76d20c266f23ee045df0ce92d2cdd8a0.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.50a3335d.chunk.css.map": "/Portfolio/static/css/main.50a3335d.chunk.css.map",
+    "static/media/chandu1.jpeg": "/Portfolio/static/media/chandu1.02362934.jpeg",
+    "static/media/chandu2.jpeg": "/Portfolio/static/media/chandu2.35219241.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.95dee7a4.js",
+    "static/js/2.5fc35ecb.chunk.js",
+    "static/css/main.50a3335d.chunk.css",
+    "static/js/main.bb3d9c37.chunk.js"
+  ]
+}
