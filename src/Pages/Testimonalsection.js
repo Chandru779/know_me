@@ -1,24 +1,23 @@
 import React from 'react'
-import {SwitchTransition,CSSTransition} from 'react-transition-group'
+import {SwitchTransition , CSSTransition} from 'react-transition-group'
 
 function Testimonalsection(){
     return(
      <div>
-         <div class="Testimonal">
+         <div className="Testimonal">
              <h1>Testimonal Section</h1>
          </div>
 
        <div>
          <SwitchTransition>
-             <CSSTransition>
-                   <div Testimonalinfo>
-                       <p class="testimonaltext">
+             <CSSTransition   timeout={200}>
+                   <div className="Testimonalinfo">
+                       <p className="testimonaltext">
                            Iam chandru , this is my testimoanl section ,
                            so i need to tesxt some lines about testimonal section 
 
-                           <p>SHARATH<span>CEO:AMAZON</span></p>
-                           
                        </p>
+                       <p>SHARATH<span>CEO:AMAZON</span></p>
                        
                   </div>
              </CSSTransition>

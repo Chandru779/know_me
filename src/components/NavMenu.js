@@ -3,9 +3,10 @@ import { NavLink } from 'react-router-dom';
 import './Style.css'
 
 function NavMenu(){
+
     return(
        
-       <div class="NavMenustyle">
+       <div className="NavMenustyle">
 
             <ul>    
                 <li >
@@ -21,7 +22,7 @@ function NavMenu(){
                     <NavLink to="/Contact">Contact</NavLink>
                 </li>
             </ul>
-
+            
         </div>
     );
 }

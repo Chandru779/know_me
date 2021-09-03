@@ -3,13 +3,13 @@ import chandu2 from './Images/chandu2.jpeg'
 
 function HomeInfo(){
     return(
-          <div class="home-info">
+          <div className="home-info">
               <div>
-                  <div class="intro">
+                  <div className="intro">
                    <p>Hello this is, <span> Chandru Angadi</span></p>
                   </div>
 
-                  <img src={chandu2} alt="chandu2" height="600px" width="750px" class="chandu2img"/>
+                  <img src={chandu2} alt="chandu2" height="600px" width="750px" className="chandu2img"/>
               </div>
           </div>
     );

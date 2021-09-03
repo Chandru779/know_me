@@ -5,7 +5,9 @@ import { BrowserRouter,Route, Switch } from 'react-router-dom';
 import Home from './Pages/Home';
 import Project from './Pages/Project';
 import About from './Pages/About';
-import Contact from './Pages/Contact';  
+import Contact from './Pages/Contact';
+
+
 
 
 
@@ -15,22 +17,22 @@ function App() {
      
      <BrowserRouter>
         <NavMenu/>
-
+        
         <Switch>
           <Route path="/About">
-            <About/>
+            <About />
           </Route>
 
           <Route path="/Project">
-           <Project/>
+           <Project />
           </Route>
 
           <Route path="/Contact"> 
-           <Contact/>   
+           <Contact />   
           </Route>
 
           <Route path="/"> 
-            <Home/>  
+            <Home />  
           </Route>
         </Switch>
 

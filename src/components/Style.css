@@ -145,3 +145,47 @@ a{
     font-size:10px;
 }
 
+.project-page{
+    margin-top:120px;
+    padding: 10px;
+}
+
+.project-inside{
+    width: 1000px;
+    height: 700px;
+    border-radius:15px;
+    background-color: rgb(177, 176, 176);
+    margin: 60px 60px 60px 160px;
+}
+
+.contact-page{
+    margin-top:120px;
+    padding: 10px;
+}
+
+.contact-inside{
+    width: 1000px;
+    height: 600px;
+    border-radius:15px;
+    background-color: rgb(177, 176, 176);
+    margin: 60px 60px 60px 160px;
+}
+
+ .contact-inside h1{
+    font-style: italic;
+}
+
+.project-inside h1{
+    font-style: italic;
+}
+.imageUI{
+   
+    margin-left:28px;
+    box-shadow:3px 3px 2px rgba(95, 93, 93, 0.9);
+}
+
+.calculator{
+    
+    margin-left:28px;
+    box-shadow:3px 3px 2px rgba(88, 86, 86, 0.9);
+}
